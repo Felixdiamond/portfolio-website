@@ -120,7 +120,7 @@ import {
       company_name: "ALX",
       icon: alx,
       iconBg: "#FFF5E6",
-      date: "August 2022 - Present",
+      date: "August 2022 - November 2023",
       points: [
         "Built software products including programs, webpages, and databases.",
         "Defined and continuously improved software development best practices.",
@@ -133,7 +133,7 @@ import {
       company_name: "Lomosoft",
       icon: placeholderls,
       iconBg: "#eeeeee",
-      date: "Feb 2022 - Present",
+      date: "Feb 2022 - August 2023",
       points: [
         "Performed and directed website updates.",
         "Built end-to-end systems optimized for speed and scale.",
@@ -146,7 +146,7 @@ import {
       company_name: "Chain Koffee",
       icon: placeholderck,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jun 2023 - Sep 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -159,26 +159,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Felix proved me wrong.",
-      name: "Lorem Ipsum",
-      designation: "CFO",
-      company: "Lorem Ipsum",
+        "He excels in crafting high-quality code that is easy to understand and maintain. He is a great team player and is always willing to help others.",
+      name: "Omonike Blessing",
+      designation: "CEO",
+      company: "Elijah Graphics",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Felix does.",
-      name: "Lorem Ipsum",
-      designation: "COO",
-      company: "Lorem Ipsum",
+      name: "Emmanuel Oye",
+      designation: "CEO",
+      company: "O.G Creations",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
         "After Felix optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lorem Ipsum",
-      designation: "CTO",
-      company: "Lorem Ipsum",
+      name: "Ebisintei Dennis",
+      designation: "CEO",
+      company: "Lomosoft",
       image: "https://randomuser.me/api/portraits/women/8.jpg",
     },
   ];
@@ -206,16 +206,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Contacts API",
+      name: "nineBooks",
       description:
-        " RESTful API built with Node.js, Express, and MongoDB. It allows users to store and manage their contacts securely using access tokens and password hashing.",
+        "An e-commerce website for selling books, videos and audiobooks. Built with NextJs, Supabase, Mongodb and AWS S3 storage.",
       tags: [
         {
-          name: "nodejs",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "supabase",
           color: "green-text-gradient",
         },
         {
@@ -223,8 +223,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: contactsapi,
-      source_code_link: "https://github.com/Felixdiamond/contacts-api",
+      image: "https://ik.imagekit.io/choppa123/project-showcase_mWSuKcv2x?updatedAt=1702670639717",
+      source_code_link: "https://github.com/Felixdiamond/ecommerce-website",
     },
     {
       name: "Accident Predictor",
