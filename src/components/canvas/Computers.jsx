@@ -42,9 +42,7 @@ const Computers = () => {
     }
   }, []);
 
-  const computer = useGLTF('/desktop_pc/scene.gltf');
-
-  
+  const computer = useGLTF('/desktop_pc/scene.gltf', true); // Use Draco loader for compressed glTF files
 
   return (
     <mesh>
@@ -67,15 +65,13 @@ const Computers = () => {
   )
 }
 
-
-
 const ComputersCanvas = ({ isMobile }) => {
   return (
     <Canvas
       frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{ preserveDrawingBuffer: true, powerPreference: "high-performance", antialias: false }} // Disable antialiasing and set powerPreference to high-performance
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false}
